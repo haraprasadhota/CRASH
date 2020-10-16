@@ -217,10 +217,11 @@ echo
 echo
 echo -e "\e[92m[+] Setting up CRASH \e[m "
 echo 
-rm setup
+rm tmux_setup
 rm CRASH
 mv kali-setup setup 
 mv kali-CRASH CRASH
+cp -R CRASH_logo /bin
 cp -R hps /usr/bin
 cp -R CRASH /usr/bin
 ###########XXXXXXXXXXXXX####################
