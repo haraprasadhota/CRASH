@@ -124,11 +124,13 @@ echo
 apt install python -y
 apt install python-pip -y
 apt install pip -y
+pip install pyngrok
+
 echo -e "\e[31m[\e[32m~\e[31m]\e[33m Successfuly installed \e[m "
 sleep 3
 echo
 echo -e "\e[31m[\e[32m~\e[31m]\e[33m Inflating ngrok \e[m "
-cp -r /usr/bin/ngrok /root/CRASH
+cp -r /usr/local/bin/ngrok /root/CRASH
 sleep 4
 ngrok 
 echo
