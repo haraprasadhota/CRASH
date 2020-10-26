@@ -1,7 +1,7 @@
 Hello hay there
 <p al ign="center"><a><img title="Built With Love" src="https://forthebadge.com/images/badges/built-for-android.svg"> </a>
 
-# <p align="center">HPBOMB
+# <p align="center">CRASH
 <p align="center">
   <img src="https://github.com/haraprasadhota/ph/blob/master/CRASH.png">
 </p>
