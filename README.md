@@ -68,7 +68,7 @@ $ bash kali-setup
 #### Installing _HPBOMB_ Termux Looks Home Page:-
 
 ![S1](https://github.com/haraprasadhota/ph/blob/master/CRASH.png)
-![S2](https://github.com/haraprasadhota/ph/blob/master/CRASH.png)
+![S2](https://github.com/haraprasadhota/ph/blob/master/CRASH2.png)
 
 
 ***
